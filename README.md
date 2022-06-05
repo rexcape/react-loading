@@ -12,9 +12,19 @@ WARNING: **This repo will not provide ui components, it only provides hooks and 
 
 I need to use the loading state for many projects. However, I can't find a suitable library from npm, so I created this repo as a temporary solution. I believe I will find a better library later, so this repo will not published to npm.
 
+My implementation is from [this anwser on stackoverflow](https://stackoverflow.com/a/69110667)
+
+If you care about the size of bundle very much, feel free to copy or modify the [index.tsx](./src/index.tsx) to your file, or find other library(I can't find...).
+
 ## usage
 
-Install: `npm install github:rexcape/react-loading`
+### install
+
+- `npm install github:rexcape/react-loading`
+- `yarn add github:rexcape/react-loading`
+- `pnpm install github:rexcape/react-loading`
+
+### initial settings
 
 Create a loading component(here uses [tailwindcss](https://tailwindcss.com/) and [@uiball/loaders](https://uiball.com/loaders/))
 
