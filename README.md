@@ -1,5 +1,7 @@
 # react-loading
 
+[![CI](https://github.com/rexcape/react-loading/actions/workflows/main.yml/badge.svg)](https://github.com/rexcape/react-loading/actions/workflows/main.yml)
+
 A loading state provider for react. It will show the given component while loading is `true`
 
 WARNING: **This repo will not provide ui components, it only provides hooks and methods I usually use**
