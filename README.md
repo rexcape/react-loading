@@ -10,7 +10,7 @@ WARNING: **This repo will not provide ui components, it only provides hooks and 
 
 ## motivation
 
-I need to use the loading state for many projects. However, I can't find a suitable library from npm, so I created this repo as a temporary solution. I believe I will find a better library later, so this repo will not published to npm.
+I need to use the loading state for many projects. However, I can't find a suitable library from npm, so I created this repo as a temporary solution. I believe I will find a better library later, so this repo will not be published to npm.
 
 My implementation is from [this anwser on stackoverflow](https://stackoverflow.com/a/69110667)
 
