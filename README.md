@@ -26,7 +26,9 @@ If you care about the size of bundle very much, feel free to copy or modify the 
 
 ### initial settings
 
-Create a loading component(here uses [tailwindcss](https://tailwindcss.com/) and [@uiball/loaders](https://uiball.com/loaders/))
+Create a loading component(here uses [tailwindcss](https://tailwindcss.com/) and [@uiball/loaders](https://uiball.com/loaders/)), it will be rendered when `loading` is `true`. **This component is not required.**
+
+NOTE: The component is propsed as a `fixed` element with full `height` and `width`.
 
 ```tsx
 import { Ring } from '@uiball/loaders'
