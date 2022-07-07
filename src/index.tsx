@@ -37,6 +37,6 @@ export function useAsync(func: () => Promise<any>) {
   const { setLoading } = useLoading()
   return async () => {
     setLoading(true)
-    func().then(() => setLoading(false))
+    func().finally(() => setLoading(false))
   }
 }

@@ -2,8 +2,6 @@ import { ReactNode } from 'react';
 interface LoadingContextInterface {
     loading: boolean;
     setLoading: (b: boolean) => void;
-    msg?: string;
-    setMsg?: (s: string) => void;
 }
 export interface LoadingProviderProps {
     children: ReactNode;

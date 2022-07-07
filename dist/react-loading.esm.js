@@ -417,7 +417,7 @@ function useAsync(func) {
         switch (_context.prev = _context.next) {
           case 0:
             setLoading(true);
-            func().then(function () {
+            func()["finally"](function () {
               return setLoading(false);
             });
 
